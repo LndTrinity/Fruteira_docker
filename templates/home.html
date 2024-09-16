@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Fruta&Fruto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header__nav__left__div">
+                <img src="{{ url_for('static', filename='logo.jpg') }}" alt="">
+            </div>
+            <div class="header__nav__right__div">
+                <a id="header__nav__right__div__inicio" href="">Início</a>
+                <a href="">Receitas</a>
+                <a href="">Quem somos</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main__section1">
+
+            <div class="main__section1__top__div">
+                <h1>Reaproveite melhor os alimentos!</h1>
+
+            </div>
+            <div class="main__section1__mid__div">
+                <h2>Receitas para economizar e ganhar saúde!</h2>
+                <p>Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade
+                </p>
+            </div>
+        </section>
+        <section class="main__section2">
+            <div class="main__section2__card1">
+
+                <img src="{{ url_for('static', filename='abacate1.png') }}" alt="">
+                <div class="main__section2__cards__content">
+                    <h3>Pimentões à Juliana</h3>
+                    <p>Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button>Ver receita</button>
+                </div>
+            </div>
+            <div class="main__section2__card2">
+                <img src="{{ url_for('static', filename='kiwi2.png') }}" alt="">
+                <div class="main__section2__cards__content">
+                    <h3>Prato oriental</h3>
+                    <p>Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button>Ver receita</button>
+                </div>
+            </div>
+            <div class="main__section2__card3">
+                <img src="{{ url_for('static', filename='vegetais3.png') }}" alt="">
+                <div class="main__section2__cards__content">
+                    <h3>Beterrabas assadas</h3>
+                    <p>Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button>Ver receita</button>
+                </div>
+
+            </div>
+            <div class="main__section2__card4">
+                <img src="{{ url_for('static', filename='pimentoes4.png') }}" alt="">
+                <div class="main__section2__cards__content">
+                    <h3>Tigela de abacate</h3>
+                    <p>Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button>Ver receita</button>
+                </div>
+            </div>
+            </div>
+            <div class="main__section2__card5">               
+                    <img src="{{ url_for('static', filename='nojento5.png') }}" alt="">
+                    <div class="main__section2__cards__content">
+                    <h3>Salada de kiwi</h3>
+                    <p>Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button>Ver receita</button>
+                </div>
+            </div>
+            <div class="main__section2__card6">
+                <img src="{{ url_for('static', filename='beterraba6.png') }}" alt="">
+                <div class="main__section2__cards__content">
+                    <h3>Mix de vegetais</h3>
+                    <p>Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                    <button>Ver receita</button>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section class="main__section3">
+            <div class="main__section3__div__txt">
+                <h2>Quem somos</h2>
+                <p>Conheça a comunidade por trás da iniciativa</p>
+            </div>
+            <div class="main__section3__div__imgs">
+                <div class="main__section3__div__imgs__img">
+                    <img src="{{ url_for('static', filename='roberta.svg') }}" alt="">
+                    <a href=""><h4>Roberta</h4></a>
+                    <p>conteúdo</p>
+                </div>
+                <div class="main__section3__div__imgs__img">
+                    <img src="{{ url_for('static', filename='marcela.svg') }}" alt="">
+                    <a href=""><h4>Marcela</h4></a>
+                    <p>chefe de cozinha</p>
+                </div>
+                <div class="main__section3__div__imgs__img">
+                    <img src="{{ url_for('static', filename='andreia.svg') }}"alt="">
+                    <a href=""><h4>Andreia</h4></a>
+                    <p>pequena produtora</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="">contato</a>
+
+    </footer>
+
+</body>
+
+</html>
